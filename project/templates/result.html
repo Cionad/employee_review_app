@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="title">
+			Employee Review Prediction App
+		</div>
+		<h2>Predicting Employee Reviews of Their Company</h2>
+		
+	</div>
+	</header>
+	<p style="color:black;font-size:20;text-align: center;"><b>Prediction of Review</b></p>
+	<div class="results">   
+
+            <p style="text-align: center;">Your review: {{ message }}</p>
+            <h4 style="text-align: center;">Prediction: {{ prediction }} Star</h4>
+            <h4 style="text-align: center;">Confidence: {{ pred_prob }}</h4>
+
+	</div>
+
+</body>
+</html>
