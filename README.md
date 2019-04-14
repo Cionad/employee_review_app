@@ -35,3 +35,4 @@ As this is just an MVP, there is much in the way of functionality to add to the 
 - Instead of using a static data file, periodically scrape Glassdoor reviews and store them in a database to ingest fresh data
 - Allow users to vote as to whether the review prediction is correct, thus getting more training data to store in the db
 - Refactor code to be more secure so that an error/exception won't expose sensitive info
+- Make this thing less ugly
