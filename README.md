@@ -19,7 +19,7 @@ Full list of requirements used to build the model and app is in the requirements
 
 ## Launch 
 
-To use interactively on the web, access the app [here](https://employee-review-app.herokuapp.com/). To run locally, clone this repo.
+To use interactively on the web, access the app [here](https://employee-review-app.herokuapp.com/). To run locally, clone this repo, then:
 - Install requirements 
 - Get the data: [download from Kaggle](https://www.kaggle.com/petersunga/google-amazon-facebook-employee-reviews)
 - Build, run, and save the model: `predicting_reviews_first_pass.ipynb`, which imports `utils.py`, outputs `nb_model.pkl` and `tfidf_vec.pkl` to the models folder. 
