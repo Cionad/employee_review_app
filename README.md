@@ -2,7 +2,7 @@
 
 This is an MVP of a webapp that takes text of an employee review of a company as input and outputs a classification of a 1, 2, 3, 4, or 5-star review, as well as the probability of belonging to that class. The [app is hosted here](https://employee-review-app.herokuapp.com/). 
 
-The app is built with Python and Flask, and deployed on Heroku. 
+The app is built with Python and Flask, and deployed on Heroku. Modeling logic is expanded upon in the [predicting reviews ipynb](https://github.com/msbarnes/employee_review_app/blob/master/predicting_reviews_first_pass.ipynb). 
 
 Publicly available dataset of employee reviews of companies [downloaded from Kaggle](https://www.kaggle.com/petersunga/google-amazon-facebook-employee-reviews). 
 
