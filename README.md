@@ -12,7 +12,7 @@ Playing around with loading/using ML models within apps, and learning how to dep
 
 ## Technologies 
 
-Full list of requirements used to build the model and app is in the requirements.txt file. Importantly, this uses:
+Full list of requirements used to build the model and app is in the `requirements.txt` file. Importantly, this uses:
 - Python 3.6.8 
 - Flask 1.0.2
 - gunicorn 19.9.0
@@ -24,12 +24,13 @@ To use interactively on the web, access the app [here](https://employee-review-a
 - Get the data: [download from Kaggle](https://www.kaggle.com/petersunga/google-amazon-facebook-employee-reviews)
 - Build, run, and save the model: `predicting_reviews_first_pass.ipynb`, which imports `utils.py`, outputs `nb_model.pkl` and `tfidf_vec.pkl` to the models folder. 
 - Build the Flask app: `app.py`, which pulls in the `.pkl` files and renders the html in the templates folder. 
-- Deploy locally by running `python app.py` and accessing [localhost:5000]. 
+- Deploy locally by running `python app.py` and accessing [localhost:5000](localhost:5000). 
 
 ## Future Development
 
 As this is just an MVP, there is much in the way of functionality to add to the app, including (but not limited to):
-- Additional modeling, model testing & evaluation
+- Convert .ipynb to a .py file to be more 'production-ready'
+- Additional modeling, model testing & evaluation. Include cross-validation & hyperparameter tuning. With more data, compare a custom deep learning model to a prebuilt model like FastText. 
 - Writing unit tests 
 - Instead of using a static data file, periodically scrape Glassdoor reviews and store them in a database to ingest fresh data
 - Allow users to vote as to whether the review prediction is correct, thus getting more training data to store in the db
